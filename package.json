@@ -1,0 +1,40 @@
+{
+  "name": "hermes-search-mcp",
+  "version": "1.0.0",
+  "description": "Hermes Search MCP Server",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "hermes-search-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "prepare": "npm run build"
+  },
+  "author": "CogStack",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/search-documents": "^12.1.0",
+    "dotenv": "^16.5.0",
+    "fastmcp": "^1.21.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
