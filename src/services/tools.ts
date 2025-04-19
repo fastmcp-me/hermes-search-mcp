@@ -1,3 +1,5 @@
+"use strict";
+
 import { z } from "zod";
 import { searchDocuments, indexContent, deleteIndex } from "../tools/search-tools";
 import { ToolConfig } from "../types/tools";

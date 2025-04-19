@@ -1,3 +1,5 @@
+"use strict";
+
 export interface AzureSearchConfig {
   endpoint: string;
   apiKey: string;

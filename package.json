@@ -1,9 +1,9 @@
 {
   "name": "hermes-search-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hermes Search MCP Server",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "type": "commonjs",
   "bin": {
     "hermes-search-mcp": "dist/index.js"
   },

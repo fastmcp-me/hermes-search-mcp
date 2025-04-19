@@ -1,3 +1,5 @@
+"use strict";
+
 import { SearchClient, SearchIndexClient, AzureKeyCredential } from "@azure/search-documents";
 import { getConfig } from "../config/env";
 
